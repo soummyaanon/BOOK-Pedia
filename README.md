@@ -1,14 +1,9 @@
-# Book Search and Personal Bookshelf
+# BOOK-Pedia: Your Gateway to Endless Knowledge
 
 Samples BOOK SEARCH
 
-<img width="1218" alt="Screenshot 2024-06-12 at 1 48 36 AM" src="https://github.com/soummyaanon/personal-bookshelf/assets/91568463/10c0c097-bea1-4064-a6da-16a6d3be4297">
+<img width="1481" alt="Screenshot 2024-06-15 at 12 48 28 PM" src="https://github.com/soummyaanon/personal-bookshelf/assets/91568463/417f9fb3-6bdd-4230-ad96-cd79da606941">
 
-
-
-
-Samples BOOK-SHELF
-<img width="1218" alt="Screenshot 2024-06-12 at 1 48 48 AM" src="https://github.com/soummyaanon/personal-bookshelf/assets/91568463/ea9bc3e3-31b6-4b7d-beeb-0d85e9adebc8">
 
 This is a React application that allows users to search for books and add them to a personal bookshelf.
 
