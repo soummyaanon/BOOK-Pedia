@@ -5,6 +5,7 @@ import SearchBar from '../components/SearchBar';
 import BookCard from '../components/BookCard';
 import { RotatingLines } from 'react-loader-spinner';
 import { FaSearch } from 'react-icons/fa';
+import Footer from '../components/Footer';
 
 const BookSearch = () => {
   const [query, setQuery] = useState('Technology');
@@ -81,6 +82,7 @@ const BookSearch = () => {
           <FaSearch />
         </a>
       </div>
+      <Footer />
     </div>
   );
 };

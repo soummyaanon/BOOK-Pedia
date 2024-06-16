@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import BookCard from '../components/BookCard';
+import Footer from '../components/Footer';
+
 
 const MyBookshelf = () => {
   const [bookshelf, setBookshelf] = useState([]);
@@ -46,6 +48,7 @@ const MyBookshelf = () => {
       <Link to="/" className="text-blue-500 hover:underline mt-6">
         Back to Search
       </Link>
+      <Footer />
     </div>
   );
 };
