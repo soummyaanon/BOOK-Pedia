@@ -41,7 +41,7 @@ const BookSearch = () => {
   }, [query, page]);
 
   return (
-    <div className="p-9 bg-gray-900 min-h-screen flex flex-col items-center text-gray-100">
+    <div className="p-9 bg-gray-900 min-h-screen flex flex-col items-center text-gray-100 pb-24">
       <h1 className="text-4xl font-bold mb-6">BOOK-Pedia: Your Gateway to Endless Knowledge</h1>
       <SearchBar setQuery={setQuery} />
       <Link to="/bookshelf" className="text-gray-200 underline mb-4">
@@ -76,7 +76,7 @@ const BookSearch = () => {
           </button>
         </div>
       )}
-      <div className="flex justify-center mt-4">
+      <div className="flex justify-center mt-4 pb-20">
         <p className="text-gray-300 mr-2">Can't find your book?</p>
         <a href="#search-bar" className="text-blue-500 hover:text-blue-700">
           <FaSearch />
